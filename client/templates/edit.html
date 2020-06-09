@@ -1,0 +1,68 @@
+<div class="panel panel-default" ng-init="showEmployee()">
+	<div class="panel-heading">
+	  <p class="panel-title"><span style="color:#5bc0de;" 
+class="glyphicon glyphicon-edit"> </span> Edit Employee</p>
+	</div>
+	<div class="panel-body">
+		<form ng-submit="updateEmployee()">
+    <div class="form-group">
+      <label for="legalentityname">Legal Entity Name</label>
+      <input type="text" class="form-control" id="legalentityname" ng-model="employee.legalentityname" value="employee.legalentityname" disabled>
+    </div>
+    <div class="form-group">
+      <label for="legalentitycode">Legal Entiy Code</label>
+      <input type="number" class="form-control" id="legalentitycode" ng-model="employee.legalentitycode" value="employee.legalentitycode" disabled>
+    </div>
+    <div class="form-group">
+      <label for="firstname">First Name</label>
+      <input type="text" class="form-control" id="firstname" ng-model="employee.firstname" value="employee.firstname" disabled>
+    </div>
+    <div class="form-group">
+      <label for="lastname">Last Name</label>
+      <input type="text" class="form-control" id="lastname" ng-model="employee.lastname" value="employee.lastname" disabled>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" ng-model="employee.email" value="employee.email" disabled>
+    </div>
+    <div class="form-group">
+      <label for="countrycode">Country Code</label>
+      <input type="number" class="form-control" id="countrycode" ng-model="employee.countrycode" value="employee.countrycode" disabled>
+    </div>
+    <div class="form-group">
+        <label for="mobileno">Mobile Number</label>
+        <input type="number" class="form-control" id="mobileno" ng-model="employee.mobileno" value="employee.mobileno" disabled>
+    </div>
+    <div class="form-group">
+        <label for="addr1">Address Line 1</label>
+        <input type="text" class="form-control" id="addr1" ng-model="employee.addr1" value="employee.addr1">
+    </div>
+    <div class="form-group">
+        <label for="addr2">Address Line 2</label>
+        <input type="text" class="form-control" id="addr2" ng-model="employee.addr2" value="employee.addr2">
+    </div>
+    <div class="form-group">
+        <label for="country">Country</label>
+        <input type="text" class="form-control" id="country" ng-model="employee.country" value="employee.country">
+    </div>
+    <div class="form-group">
+        <label for="state">State</label>
+        <input type="text" class="form-control" id="state" ng-model="employee.state" value="employee.state">
+    </div>
+    <div class="form-group">
+        <label for="city">City</label>
+        <input type="text" class="form-control" id="city" ng-model="employee.city" value="employee.city">
+    </div>
+    <div class="form-group">
+        <label for="postalcode">Postal Code</label>
+        <input type="number" class="form-control" id="postalcode" ng-model="employee.postalcode" value="employee.postalcode">
+    </div>
+    <div class="form-group">
+        <label for="logo"></label>
+        <input type="file" class="form-control" id="logo" ng-model="employee.logo" value="employee.logo">
+    </div>
+    <button type="submit" style="color:#5bc0de;" class="btn btn-default">Update</button>
+    <a href="#/employees" class="btn btn-default"> Cancel</a>
+</form>		
+    <div>
+<div>

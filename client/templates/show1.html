@@ -1,0 +1,22 @@
+<div class="panel panel-default" ng-init="showEmployee()">
+	<div class="panel-heading">
+	  <p class="panel-title"> Employee Detail Information</p>
+	</div>
+	<div class="panel-body">
+		<form>
+		<div class="form-group">
+         <label class="form-control">ID: {{employee._id}}</label>
+         <label class="form-control">Legal Entity Name :{{ employee.legalentitynameme}}</label>
+		 <label class="form-control">Legal Entity Code: {{ employee.legalentitycode }}</label>
+		 <label class="form-control">First Name :{{ employee.firstname }}</label>
+		 <label class="form-control">Last Name : {{ employee.lastname }}</label>
+		 <label class="form-control">Email:{{ employee.email }}</label>
+		 <label class="form-control">Mobile Number: {{ employee.mobileno}}</label>
+		 <label class="form-control">Country: {{ employee.country }}</label>
+		 <label class="form-control">State: {{ employee.state }}</label>
+		 <label class="form-control">City : {{ employee.city }}</label>
+		<a href="#/employees" class="btn btn-default"> Cancel</a>
+		</div>
+	</form>		
+    <div>
+<div>
